@@ -1,0 +1,34 @@
+.inicial #wrapper {
+	background: url("../../images/inicial/fundo_topo2.png") no-repeat scroll -299px 0 transparent;
+	margin: 0px auto 0;
+	max-width: 100%;
+	min-width: 960px;
+	position: relative;
+}
+
+.inicial header#banner {
+	background: url(../../images/pontual/sombra_banner.png) no-repeat 50% 431px;
+	height: 486px;
+}
+
+
+.inicial .home_banner{
+	.aui-carousel-menu-pause, .aui-carousel-menu-prev, .aui-carousel-menu-next{
+	display:none;
+ }
+ .aui-carousel menu {
+   background: transparent;
+ }
+}
+
+.inicial h1.site-title{
+	margin: 0px;
+}
+
+.inicial .banner-rotativo{
+	margin-top: -38px;
+	height: 300px;
+	margin-bottom: 75px;
+	z-index: -10px;
+	position: relative;
+}

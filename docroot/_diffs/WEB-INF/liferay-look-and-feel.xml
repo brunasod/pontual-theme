@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE look-and-feel PUBLIC "-//Liferay//DTD Look and Feel 6.1.0//EN" "http://www.liferay.com/dtd/liferay-look-and-feel_6_1_0.dtd">
+
+<look-and-feel>
+	<compatibility>
+		<version>6.1.0+</version>
+	</compatibility>
+
+	<theme id="pontual-theme" name="Pontual">
+	
+		<color-scheme id="01" name="01 Default">
+			<css-class>default</css-class>
+			<color-scheme-images-path>/images/pontual</color-scheme-images-path>
+		</color-scheme>
+		
+		<color-scheme id="02" name="02 Inicial">
+			<css-class>inicial</css-class>
+			<color-scheme-images-path>/images/inicial</color-scheme-images-path>
+		</color-scheme>
+	
+	</theme>
+</look-and-feel>
+
