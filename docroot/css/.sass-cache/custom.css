@@ -541,7 +541,7 @@ hr, .separator {
   border-style: solid;
   border-width: 1px 0; }
 
-button {
+button, input[type="submit"], input[type="button"] {
   background: linear-gradient(#eff3f4, #ffffff);
   border: 1px solid #DDE1E1;
   border-radius: 2px 2px 2px 2px;

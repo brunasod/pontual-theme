@@ -36,7 +36,7 @@ hr, .separator {
 	border-width: 1px 0;
 }
 
-button {
+button, input[type="submit"], input[type="button"] {
 	background: linear-gradient(#EFF3F4, #FFFFFF);
 	border: 1px solid #DDE1E1;
 	border-radius: 2px 2px 2px 2px;
