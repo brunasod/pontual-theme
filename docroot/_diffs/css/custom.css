@@ -1140,3 +1140,17 @@ padding: 0;
 }
 
 
+/* ---------- Tabela Parceiros ---------- */
+
+.pt-parceiros img{
+	margin: 0.7em 0em;
+}
+
+.td-borda {
+	border-right: 1pt solid #c9c9c9;
+	padding-right: 3em;
+}
+
+.td-margem {
+	padding-left: 3em;
+}
