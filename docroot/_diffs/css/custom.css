@@ -12,7 +12,7 @@
 
 
 body {
-	background: #EEF0F2;
+	background: #e9edf0;
 	font-size: 11px;
 }
 
@@ -1153,4 +1153,21 @@ padding: 0;
 
 .td-margem {
 	padding-left: 3em;
+}
+
+/* --------- elementos de tela --------- */
+.botao_azul{
+	@include linear-gradient(#2265b9, #41afda);
+	@include box-shadow( 1px 1px 3px #283274,inset 1px 1px 1px 0px #4FACE0); 
+	display: block;
+	padding: 4px;
+	width: 89px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	cursor: pointer;
+	float: left;
+	margin: -1px 0 0 10px;
+	&:hover{
+		@include linear-gradient(#1C5092, #3293B9);
 }
