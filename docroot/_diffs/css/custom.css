@@ -11,8 +11,6 @@
 /* ---------- Base styles ---------- */
 
 
-
-
 body {
 	background: #EEF0F2;
 	font-size: 11px;
@@ -36,6 +34,15 @@ hr, .separator {
 	border-color: #BFBFBF transparent #FFF;
 	border-style: solid;
 	border-width: 1px 0;
+}
+
+button, input[type="submit"], input[type="button"] {
+	background: linear-gradient(#EFF3F4, #FFFFFF);
+	border: 1px solid #DDE1E1;
+	border-radius: 2px 2px 2px 2px;
+	color: #D1202E;
+	font-size: 11px;
+	text-transform: uppercase;
 }
 
 #wrapper {
@@ -786,7 +793,7 @@ a.destacado{
 
 
 
-/* ---------- Seletores Básicos ---------- */
+/* ---------- Seletores Basicos ---------- */
 
 h1, h2{
     color: #181F5C;
@@ -810,7 +817,7 @@ h1 {
 }
 
 
-/* ---------- Estilo da Box em Produtos e Serviços ---------- */
+/* ---------- Estilo da Box em Produtos e Servicos ---------- */
 
 .quadro_produto ul.abas{
 list-style: none;
@@ -983,7 +990,7 @@ padding: 0;
 	font-size: 16px;
 }
 
-/* ---------- Botão azul dos formulários ---------- */
+/* ---------- Botão azul dos formularios ---------- */
 
 .botao {
       @include linear-gradient(#41add9, #2265b9);
@@ -1133,3 +1140,17 @@ padding: 0;
 }
 
 
+/* ---------- Tabela Parceiros ---------- */
+
+.pt-parceiros img{
+	margin: 0.7em 0em;
+}
+
+.td-borda {
+	border-right: 1pt solid #c9c9c9;
+	padding-right: 3em;
+}
+
+.td-margem {
+	padding-left: 3em;
+}

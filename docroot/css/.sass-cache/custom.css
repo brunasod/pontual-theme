@@ -541,6 +541,14 @@ hr, .separator {
   border-style: solid;
   border-width: 1px 0; }
 
+button, input[type="submit"], input[type="button"] {
+  background: linear-gradient(#eff3f4, #ffffff);
+  border: 1px solid #DDE1E1;
+  border-radius: 2px 2px 2px 2px;
+  color: #D1202E;
+  font-size: 11px;
+  text-transform: uppercase; }
+
 #wrapper {
   background: url("../images/pontual/fundo_topo.png") no-repeat scroll -195px 0 transparent;
   margin: 0px auto 0;
@@ -1081,7 +1089,8 @@ a.destacado {
   color: #fff !important; }
 
 /* ---------- Banner Rotativo ---------- */
-/* ---------- Tirando ÔøΩcone dos Asset Publishers ---------- */
+
+/* ---------- Tirando icone dos Asset Publishers ---------- */
 .asset-title img {
   display: none; }
 
@@ -1095,7 +1104,7 @@ a.destacado {
   margin-left: 0px;
   margin-right: 0px; }
 
-/* ---------- EspaÔøΩamento do tÔøΩtulo no Asset Publisher ---------- */
+/* ---------- Espacamento do titulo no Asset Publisher ---------- */
 .portlet-content, .portlet-minimized .portlet-content-container {
   padding: 0 10px 10px; }
 
@@ -1106,7 +1115,8 @@ a.destacado {
 .portlet-content, .portlet-minimized .portlet-content-container {
   padding: 0 10px 10px; }
 
-/* ---------- Menu Rastreamento e CotaÔøΩÔøΩo ---------- */
+
+/* ---------- Menu Rastreamento e Cotacao ---------- */
 #menu-rastreamento {
   text-align: center;
   background: #585858;
@@ -1206,7 +1216,7 @@ a.destacado {
       text-transform: none;
       border-radius: 0px 0px 0px 0px; }
 
-/* ---------- Seletores BÔøΩsicos ---------- */
+/* ---------- Seletores Basicos ---------- */
 h1, h2 {
   color: #181F5C; }
 
@@ -1224,7 +1234,7 @@ h1 {
   color: #181F5C;
   font-size: 2.5em; }
 
-/* ---------- Estilo da Box em Produtos e ServiÔøΩos ---------- */
+/* ---------- Estilo da Box em Produtos e Servicos ---------- */
 .quadro_produto ul.abas {
   list-style: none;
   margin: 0;
@@ -1378,7 +1388,7 @@ h1 {
 .lista-noticias .asset-title {
   font-size: 16px; }
 
-/* ---------- BotÔøΩo azul dos formulÔøΩrios ---------- */
+/* ---------- Botï¿½o azul dos formulorios ---------- */
 .botao {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2265b9), color-stop(100%, #41add9));
   background-image: -webkit-linear-gradient(#2265b9, #41add9);
@@ -1517,4 +1527,13 @@ h1 {
   width: 200px;
   height: 88px;
   float: right; }
+/* ---------- Tabela Parceiros ---------- */
+.pt-parceiros img {
+  margin: 0.7em 0em; }
 
+.td-borda {
+  border-right: 1pt solid #c9c9c9;
+  padding-right: 3em; }
+
+.td-margem {
+  padding-left: 3em; }
