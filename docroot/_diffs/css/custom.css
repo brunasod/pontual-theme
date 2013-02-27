@@ -764,31 +764,40 @@ a.destacado{
   }
 }
 #menu-cotacao{ 
+  text-align: center;
   background: #585858;
-  a.link{
-    background: #585858;
-    font-size: 11px;
-    font-weight: normal;
-    letter-spacing: -0.4px;
-    margin: 0 0px 0 0;
-    padding: 12px 6px;
-    color: white;
-    text-decoration: none;
-    text-transform: none;
-    border-radius: 0px 0px 0px 0px;
-    &:hover{  
-      background: #737373;
-      font-size: 11px;
-      font-weight: normal;
-      letter-spacing: -0.4px;
-      margin: 0 0px 0 0;
-      padding: 12px 6px;
+  height: 28px;
+  padding: 11px 6px 0;
+  color: white;
+  position: relative;
+  font-size: 11px;
+  cursor: pointer;
+  &:hover{  background: #737373; height:31px;}
+  .quadro{
+    text-align: left;
+    position: absolute;
+    background: #737373;
+    top: 39px;
+	z-index: 249;
+	width: 170px;
+	padding: 10px;
+	left: 0px;
+	a.link-in{
+      @include linear-gradient(#c71530, #99040b);
+      @include box-shadow( 1px 1px 3px rgba(0, 0, 0, 0.5),inset 1px 1px 1px 0px #ff1e38);
+      @include text-shadow(rgba(blue, 0) 0px 0px 0, rgba(blue, 0.0) 0px 0px 0, rgba(blue, 0) 0px 0px 0);
+      @include border-radius(0);
       color: white;
-      text-decoration: none;
-      text-transform: none;
-      border-radius: 0px 0px 0px 0px;
+      width: 146px;
+      border: 0;
+      text-transform: uppercase;
+      padding: 11px;
+      font-size: 13px;
+      font-weight: normal;
+      margin-top: 8px;
+      text-align: center;
     }
-  }
+   }
 }
 
 
@@ -1170,4 +1179,5 @@ padding: 0;
 	margin: -1px 0 0 10px;
 	&:hover{
 		@include linear-gradient(#1C5092, #3293B9);
+	}
 }

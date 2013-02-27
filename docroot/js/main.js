@@ -41,13 +41,13 @@ AUI().ready('event', function(A) {
   });
   AUI().one('#menu-rastreamento').on('mouseout', function(A) {
     AUI().one('#menu-rastreamento .quadro').hide();
-  })
+  });
   AUI().one('#menu-cotacao .quadro').hide();
   AUI().one('#menu-cotacao').on('mouseover', function(A) {
     AUI().one('#menu-cotacao .quadro').show();
   });
   AUI().one('#menu-cotacao').on('mouseout', function(A) {
     AUI().one('#menu-cotacao .quadro').hide();
-  })
+  });
 });
 

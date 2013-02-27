@@ -41,13 +41,12 @@
                    </div>
             </li>
 				 
-            <li id="menu-cotacao">
-            	<a href="#" class="/web/guest/cotacao-e-coleta">COTA&Ccedil;&Atilde;O E COLETA
+            <li id="menu-cotacao"><span>COTA&Ccedil;&Atilde;O E COLETA</span>
 				<div class="quadro">
-					<a href="/web/guest/cotacao-e-coleta" class="link-in">Cota&ccedil;&atilde;o</a><br />
-					<a href="/web/guest/agende-uma-coleta" class="link-in">Coleta</a>
+					<a href="/web/guest/cotacao-e-coleta" class="link-in" tabindex="-1" id="aui_3_4_0_1_269">Cota&ccedil;&atilde;O</a>
+					<br>
+					<a href="/web/guest/agende-uma-coleta" class="link-in" tabindex="-1" id="aui_3_4_0_1_271">Coleta</a>
 				</div>
-            </a>
 			</li>
 		
 	</ul>
