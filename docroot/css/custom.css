@@ -158,15 +158,17 @@ h1.site-title{
 	min-height: 2.2em;
 	position: relative;
 	z-index: inicial;
-  float: right;
-  margin-top: -44px;
-  padding: 0px 0px 0px 3px;;
-  position: absolute;
-  width: 806px;
-  top: 109px;
-  right: 0;
+	float: right;
+	margin-top: -44px;
+	padding: 0px 0px 0px 3px;;
+	position: absolute;
+	width: 723px;
+	top: 110px;
+	right: 0;
 }
-
+.firefox #navigation {
+	width: 695px;
+}
 #navigation ul {
 	list-style: none;
 	margin: 0;
@@ -177,9 +179,10 @@ h1.site-title{
 .ie7 #navigation ul {
 	padding: 2px;
 }
-
 #navigation li, #navigation a {
 	display: inline-block;
+	display: inline-block;
+	float: left;
 }
 
 .ie6 #navigation li, .ie7 #navigation li, .ie6 #navigation a, .ie7 #navigation a {
@@ -191,7 +194,8 @@ h1.site-title{
 #navigation li {
 	position: relative;
 	vertical-align: top;
-  @include border-radius(0px);
+  	@include border-radius(0px);
+  	margin-left: 3px;
 }
 
 #navigation a {
@@ -200,7 +204,6 @@ h1.site-title{
     font-size: 11px;
     font-weight: bold;
     letter-spacing: -0.4px;
-    margin: 0 1px;
     padding: 12px 6px;
     text-decoration: none;
     text-transform: uppercase;
@@ -345,12 +348,13 @@ h1.site-title{
 /* ---------- Footer ---------- */
 
 #footer {
-	background: url(../images/pontual/footer.png) no-repeat 78% 100%;
+	background: url(../images/pontual/footer.png) no-repeat 50% 100%;
 	text-align: left;
 	width: 100%;
 	margin: 0 auto;
 	height: 200px;
 }
+
 
 #footer h2{
 	color: #7cc3ff;
@@ -719,7 +723,7 @@ a.destacado{
     z-index: 249;
     width: 170px;
     padding: 10px;
-    p {margin: 0 0 3px 0;}
+    p {margin: 0 0 3px 0; color: #eee;}
     input[type="text"] {
       width: 165px;
       font-size: 23px;
@@ -731,7 +735,7 @@ a.destacado{
       font-weight: normal;
       letter-spacing: -0.4px;
       margin: 0 12px 0 0;
-      padding: 0;
+      padding: 0px 0px 0px 5px;
       color: white;
       text-decoration: underline;
       text-transform: none;
@@ -741,7 +745,6 @@ a.destacado{
         font-weight: normal;
         letter-spacing: -0.4px;
         margin: 0 12px 0 0;
-        padding: 0px 0px 0px 5px;
         color: white;
         text-decoration: underline;
         text-transform: none;
