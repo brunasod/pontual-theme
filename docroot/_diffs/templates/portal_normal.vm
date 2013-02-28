@@ -57,10 +57,6 @@ $theme.include($body_top_include)
 		
 	
 
-		#if (!$is_signed_in)
-			<a href="$sign_in_url" id="sign-in" rel="nofollow">$sign_in_text</a>
-		#end
-
 		#if ($has_navigation || $is_signed_in)
 			#parse ("$full_templates_path/navigation.vm")
 		#end
