@@ -147,6 +147,9 @@ h1.site-title{
 	z-index: 255;
 	position: relative;
 	margin-left: -20px;
+	img{
+		@include box-shadow(0 0 7px rgba(0,0,0,0.5));
+	}
 }
 
 /* ---------- Main navigation ---------- */
@@ -374,7 +377,7 @@ h1.site-title{
 
 #footer .contato .contato_form {
   position: absolute;
-  left: 644px;
+  left: 654px;
   top: 0;
   .aui-fieldset{
     margin: 36px 0 0 0;
@@ -390,11 +393,14 @@ h1.site-title{
     margin-left: 17px;
     
   }
+  .field-input-text{
+  	width: 142px;
+  }
   .aui-field{ 
     .aui-field-content{
       margin: 4px 0 0;
       textarea{
-        width: 275px;
+        width: 307px;
         height:  25px;
       }
     }
