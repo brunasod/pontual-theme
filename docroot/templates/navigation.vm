@@ -35,7 +35,7 @@
 			<li id="menu-rastreamento"><span>RASTREAMENTO</span>
                    <div class="quadro">
                      <p>Informe a ND abaixo para consulta</p>
-                     <input type="text" name="nd">
+                     <textarea></textarea>
                      <a href="#" class="link-in">&Uacute;ltimo status</a> <a href="#" class="link-in">Limpar tudo</a>
                      <input type="submit" value="Rastrear">
                    </div>

@@ -106,8 +106,8 @@ $theme.include($body_top_include)
 		<p> <span class="azul"> MATRIZ: </span>
 		Tel.: (61) 2192-1200   /   Fax: (61) 3365-1778 </p>
 
-		<p><span class="azul"> Filiais e Agentes <br/>
-		sac@pontualcargas.com.br </span></p>
+		<p><span class="azul marca_subl"> Filiais e Agentes</span><br/>
+		<span class="azul marca_subl">sac@pontualcargas.com.br </span></p>
 		
 			<div class="contato_form">
 
