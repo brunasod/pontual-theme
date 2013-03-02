@@ -1225,3 +1225,8 @@ padding: 0;
 		@include linear-gradient(#1C5092, #3293B9);
 	}
 }
+
+
+.marcador ul li{
+	list-style-image: url("../images/pontual/marcador.png");
+}
