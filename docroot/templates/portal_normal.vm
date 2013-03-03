@@ -38,7 +38,7 @@ $theme.include($body_top_include)
 			</div>
 		
 			<h1 class="site-title">
-				<a class="$logo_css_class" href="$site_default_url" title="#language("go-to") $site_name">
+				<a class="$logo_css_class" href="/home" title="#language("go-to") $site_name">
 					<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />
 				</a>
 
@@ -61,7 +61,7 @@ $theme.include($body_top_include)
 			#parse ("$full_templates_path/navigation.vm")
 		#end
 		
-		#if ($the_title == "Welcome")
+		#if ($the_title == "home")
 			<div class="banner-rotativo">
 				
 				$velocityPortletPreferences.setValue("portlet-setup-show-borders", "false")
