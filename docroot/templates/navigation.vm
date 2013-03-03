@@ -33,7 +33,7 @@
 		#end
 		
 			<li id="menu-rastreamento"><span>RASTREAMENTO</span>
-                   <div class="quadro">
+                   <div class="quadro aui-helper-hidden">
                      <p>Informe a ND abaixo para consulta</p>
                      <textarea></textarea>
                      <a href="#" class="link-in">&Uacute;ltimo status</a> <a href="#" class="link-in">Limpar tudo</a>
@@ -42,7 +42,7 @@
             </li>
 				 
             <li id="menu-cotacao"><span>COTA&Ccedil;&Atilde;O E COLETA</span>
-				<div class="quadro">
+				<div class="quadro aui-helper-hidden">
 					<a href="/web/guest/cotacao-e-coleta" class="link-in" tabindex="-1" id="aui_3_4_0_1_269">Cota&ccedil;&atilde;O</a>
 					<br>
 					<a href="/web/guest/agende-uma-coleta" class="link-in" tabindex="-1" id="aui_3_4_0_1_271">Coleta</a>

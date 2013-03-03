@@ -300,7 +300,7 @@ h1.site-title{
 	text-shadow: none;
 	font-size: 26px;
 	color: #181f5c;
-	background: url(../images/pontual/marcador.png) no-repeat 1% 100%;
+	background: url(../images/pontual/marcador.png) repeat-x 1% 100%;
 }
 
 .portlet-title img.icon{
@@ -954,18 +954,23 @@ padding: 0;
 
 /* ---------- Asset Noticias ---------- */
 
-.portlet_noticias .asset-more{
-	margin-top: 10px;
-	a {
-		@include linear-gradient(#fff,#eff3f4);
-		@include border-radius(2px);
-		border: 1px solid #dde1e1;
-		color: #D1202E;
-		margin-top: 13px;
-		padding: 5px 10px;
-		text-decoration: none;
-		text-transform: uppercase;
-		font-size: 11px;
+.portlet_noticias {
+		.portlet-title{
+			background: url(../images/pontual/marcador.png) no-repeat 1% 100%;
+		}		
+		.asset-more{
+		margin-top: 10px;
+		a {
+			@include linear-gradient(#fff,#eff3f4);
+			@include border-radius(2px);
+			border: 1px solid #dde1e1;
+			color: #D1202E;
+			margin-top: 13px;
+			padding: 5px 10px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 11px;
+		}
 	}
 }
 .portlet_noticias .final-separator{

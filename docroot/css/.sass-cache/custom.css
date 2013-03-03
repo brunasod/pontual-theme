@@ -787,7 +787,7 @@ h1.site-title {
   text-shadow: none;
   font-size: 26px;
   color: #181f5c;
-  background: url(../images/pontual/marcador.png) repeat-x 1% 100%; }
+  background: url(../images/pontual/marcador.png) no-repeat 1% 100%; }
 
 .portlet-title img.icon {
   display: none; }
@@ -1269,7 +1269,7 @@ h2 {
   font-size: 2.4em;
   font-weight: normal !important;
   background: url(../images/pontual/marcador.png) no-repeat 1% 100%;
-  margin-bottom: 15px; }
+  margin: 5px 0 15px; }
 
 h1 {
   color: #181F5C;
@@ -1397,6 +1397,9 @@ h1 {
     text-transform: uppercase;
     font-size: 11px; }
 
+.portlet_noticias .final-separator {
+  display: none; }
+
 .noticias-destaque .portlet-body {
   overflow: hidden; }
 
@@ -1442,7 +1445,7 @@ h1 {
   margin-left: 0px; }
 
 .lista-noticias .asset-abstract {
-  border-bottom: 1pt solid #e9edf0; }
+  border-bottom: 1pt solid #dadfe4; }
 
 .lista-noticias .asset-more {
   display: none; }
@@ -1462,6 +1465,14 @@ h1 {
 
 .lista-noticias .asset-title {
   font-size: 16px; }
+
+.link-pg-inicio p {
+  text-align: right;
+  margin: -31px 8px 0 0; }
+  .link-pg-inicio p a {
+    text-decoration: none; }
+    .link-pg-inicio p a:hover {
+      text-decoration: underline; }
 
 /* ---------- BotÔøΩo azul dos formularios ---------- */
 .botao {
@@ -1645,4 +1656,18 @@ h1 {
 
 .marcador ul li {
   list-style-image: url("../images/pontual/marcador.png"); }
+
+.col-image {
+  display: table-cell; }
+  .col-image img {
+    border: 5px solid white; }
+
+.col-texto {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 14px; }
+  .col-texto h1 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 14px; }
 
