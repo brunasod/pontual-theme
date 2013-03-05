@@ -1246,9 +1246,10 @@ padding: 0;
 }
 
 
-.marcador ul li{
+.marcador li{
 	list-style-image: url("../images/pontual/marcador.png");
 }
+
 .col-image{
 	display: table-cell;
 	img{
