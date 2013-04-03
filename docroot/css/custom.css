@@ -49,7 +49,7 @@ button, input[type="submit"], input[type="button"] {
 }
 
 #wrapper {
-	background: url("../images/pontual/fundo_topo.png") no-repeat scroll -195px 0 transparent;
+	background: url("../images/pontual/fundo_topo.png") no-repeat scroll center top transparent;
     margin: 0px auto 0;
 	max-width: 100%;
 	min-width: 960px;
@@ -296,7 +296,7 @@ h1.site-title{
 	float: none;
 	font-weight: bold;
 	min-width: 50%;
-	padding: 5px;
+	padding: 0px 0 18px 0;
 	text-shadow: none;
 	font-size: 26px;
 	color: #181f5c;
@@ -365,14 +365,14 @@ h1.site-title{
 #footer h2{
 	color: #7cc3ff;
 	margin-bottom: 2px;
-	background: url(../images/pontual/marcador.png) no-repeat 1% 100%;
+	background: url(../images/pontual/marcador.png) no-repeat 0 100%;
 }
 
 #footer .contato {
 	margin: 0 auto;
 	text-align: left;
 	width: 658px;
-	padding: 1px 0 0 350px;
+	padding: 22px 0 0 350px;
 	color: white;
 	position: relative;
 }
@@ -730,12 +730,12 @@ a.destacado{
     background: #737373;
     top: 41px;
     z-index: 249;
-    width: 170px;
+    width: 209px;
     padding: 10px;
     p {margin: 0 0 3px 0; color: #eee;}
     textarea {
-	    width: 165px;
-		max-width: 165px;
+	    width: 204px;
+		max-width: 204px;
 		font-size: 13px;
 		margin-bottom: 7px;
 		font-family: "Courier New";
@@ -769,7 +769,7 @@ a.destacado{
       @include text-shadow(rgba(blue, 0) 0px 0px 0, rgba(blue, 0.0) 0px 0px 0, rgba(blue, 0) 0px 0px 0);
       @include border-radius(0);
       color: white;
-      width:165px;
+      width:208px;
       border: 0;
       text-transform: uppercase;
       padding: 11px;
@@ -795,7 +795,7 @@ a.destacado{
     background: #737373;
     top: 41px;
 	z-index: 249;
-	width: 170px;
+	width: 209px;
 	padding: 10px;
 	right: 0px;
 	a.link-in{
@@ -804,7 +804,7 @@ a.destacado{
       @include text-shadow(rgba(blue, 0) 0px 0px 0, rgba(blue, 0.0) 0px 0px 0, rgba(blue, 0) 0px 0px 0);
       @include border-radius(0);
       color: white;
-      width: 146px;
+      width: 186px;
       border: 0;
       text-transform: uppercase;
       padding: 11px;
@@ -944,7 +944,13 @@ padding: 0;
 .portlet-branco {
 	background: #fbfbfd;
 	padding: 10px 25px;
-	margin: 20px 0;
+	margin: 0px 11px 11px 0;
+	h3{
+		margin: 8px 0;
+	}
+	li {
+		margin: 18px 0;
+	}
 }
 
 #mostra_produto ul li{
@@ -955,10 +961,11 @@ padding: 0;
 /* ---------- Asset Noticias ---------- */
 
 .portlet_noticias {
-		.portlet-title{
-			background: url(../images/pontual/marcador.png) no-repeat 1% 100%;
-		}		
-		.asset-more{
+	.portlet-title{
+		background: url(../images/pontual/marcador.png) no-repeat 6px 100%;
+		padding: 5px 5px 1px;
+	}		
+	.asset-more{
 		margin-top: 10px;
 		a {
 			@include linear-gradient(#fff,#eff3f4);
@@ -972,13 +979,25 @@ padding: 0;
 			font-size: 11px;
 		}
 	}
+	.asset-title a{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 289px;
+		white-space: nowrap;
+		display: block;
+	}
 }
+
 .portlet_noticias .final-separator{
 	display: none;	
 }
 
 .noticias-destaque .portlet-body{
 	overflow: hidden;
+	.portlet-title{
+		padding: 0 0 19px;
+		margin-bottom: 5px;
+	}
 }
 
 .noticias-destaque .asset-abstract {
@@ -1010,18 +1029,31 @@ padding: 0;
 .noticias-destaque .asset-title{
 	border-bottom: none;
 	text-decoration: underline;
+	a {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 289px;
+		white-space: nowrap;
+		display: block;
+	}
 }
 
 .lista-noticias .asset-small-image, .lista-noticias .asset-resource-info{
 	display: none;
 }
-
+.lista-noticias{
+	.portlet-title{
+		padding: 0 0 19px;
+		margin-bottom: 5px;
+	}
+}
 .lista-noticias .asset-metadata{
 	margin-left: 0px;
 }
 
 .lista-noticias .asset-abstract{
 	border-bottom: 1pt solid rgb(218, 223, 228);
+	padding: 8px 0;
 }
 
 
@@ -1111,7 +1143,7 @@ padding: 0;
 		height: 21px;
 		select{
 			float: left;
-			whidth: 310px
+			width: 310px
 		}	
 		#escolha{
 			@include linear-gradient(#2265b9, #41afda);
@@ -1125,6 +1157,8 @@ padding: 0;
 			cursor: pointer;
 			float: left;
 			margin: -1px 0 0 10px;
+			position: absolute;
+			right: 16px;
 			&:hover{
 				@include linear-gradient(#1C5092, #3293B9);
 			}

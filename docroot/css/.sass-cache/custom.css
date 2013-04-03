@@ -553,7 +553,7 @@ button, input[type="submit"], input[type="button"] {
   text-transform: uppercase; }
 
 #wrapper {
-  background: url("../images/pontual/fundo_topo.png") no-repeat scroll -195px 0 transparent;
+  background: url("../images/pontual/fundo_topo.png") no-repeat scroll center top transparent;
   margin: 0px auto 0;
   max-width: 100%;
   min-width: 960px;
@@ -783,7 +783,7 @@ h1.site-title {
   float: none;
   font-weight: bold;
   min-width: 50%;
-  padding: 5px;
+  padding: 0px 0 18px 0;
   text-shadow: none;
   font-size: 26px;
   color: #181f5c;
@@ -834,13 +834,13 @@ h1.site-title {
 #footer h2 {
   color: #7cc3ff;
   margin-bottom: 2px;
-  background: url(../images/pontual/marcador.png) no-repeat 1% 100%; }
+  background: url(../images/pontual/marcador.png) no-repeat 0 100%; }
 
 #footer .contato {
   margin: 0 auto;
   text-align: left;
   width: 658px;
-  padding: 1px 0 0 350px;
+  padding: 22px 0 0 350px;
   color: white;
   position: relative; }
 
@@ -1149,14 +1149,14 @@ a.destacado {
     background: #737373;
     top: 41px;
     z-index: 249;
-    width: 170px;
+    width: 209px;
     padding: 10px; }
     #menu-rastreamento .quadro p {
       margin: 0 0 3px 0;
       color: #eee; }
     #menu-rastreamento .quadro textarea {
-      width: 165px;
-      max-width: 165px;
+      width: 204px;
+      max-width: 204px;
       font-size: 13px;
       margin-bottom: 7px;
       font-family: "Courier New";
@@ -1200,7 +1200,7 @@ a.destacado {
       -khtml-border-radius: 0;
       border-radius: 0;
       color: white;
-      width: 165px;
+      width: 208px;
       border: 0;
       text-transform: uppercase;
       padding: 11px;
@@ -1226,7 +1226,7 @@ a.destacado {
     background: #737373;
     top: 41px;
     z-index: 249;
-    width: 170px;
+    width: 209px;
     padding: 10px;
     right: 0px; }
     #menu-cotacao .quadro a.link-in {
@@ -1248,7 +1248,7 @@ a.destacado {
       -khtml-border-radius: 0;
       border-radius: 0;
       color: white;
-      width: 146px;
+      width: 186px;
       border: 0;
       text-transform: uppercase;
       padding: 11px;
@@ -1368,14 +1368,19 @@ h1 {
 .portlet-branco {
   background: #fbfbfd;
   padding: 10px 25px;
-  margin: 20px 0; }
+  margin: 0px 11px 11px 0; }
+  .portlet-branco h3 {
+    margin: 8px 0; }
+  .portlet-branco li {
+    margin: 18px 0; }
 
 #mostra_produto ul li {
   list-style-image: url("../images/pontual/marcador.png"); }
 
 /* ---------- Asset Noticias ---------- */
 .portlet_noticias .portlet-title {
-  background: url(../images/pontual/marcador.png) no-repeat 1% 100%; }
+  background: url(../images/pontual/marcador.png) no-repeat 6px 100%;
+  padding: 5px 5px 1px; }
 .portlet_noticias .asset-more {
   margin-top: 10px; }
   .portlet_noticias .asset-more a {
@@ -1398,12 +1403,21 @@ h1 {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 11px; }
+.portlet_noticias .asset-title a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 289px;
+  white-space: nowrap;
+  display: block; }
 
 .portlet_noticias .final-separator {
   display: none; }
 
 .noticias-destaque .portlet-body {
   overflow: hidden; }
+  .noticias-destaque .portlet-body .portlet-title {
+    padding: 0 0 19px;
+    margin-bottom: 5px; }
 
 .noticias-destaque .asset-abstract {
   width: 300px;
@@ -1439,15 +1453,26 @@ h1 {
 .noticias-destaque .asset-title {
   border-bottom: none;
   text-decoration: underline; }
+  .noticias-destaque .asset-title a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 289px;
+    white-space: nowrap;
+    display: block; }
 
 .lista-noticias .asset-small-image, .lista-noticias .asset-resource-info {
   display: none; }
+
+.lista-noticias .portlet-title {
+  padding: 0 0 19px;
+  margin-bottom: 5px; }
 
 .lista-noticias .asset-metadata {
   margin-left: 0px; }
 
 .lista-noticias .asset-abstract {
-  border-bottom: 1pt solid #dadfe4; }
+  border-bottom: 1pt solid #dadfe4;
+  padding: 8px 0; }
 
 .lista-noticias .asset-more {
   display: none; }
@@ -1526,7 +1551,7 @@ h1 {
   height: 21px; }
   .box_filiais .seletor_filiais select {
     float: left;
-    whidth: 310px; }
+    width: 310px; }
   .box_filiais .seletor_filiais #escolha {
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #41afda), color-stop(100%, #2265b9));
     background-image: -webkit-linear-gradient(#41afda, #2265b9);
@@ -1546,7 +1571,9 @@ h1 {
     color: white;
     cursor: pointer;
     float: left;
-    margin: -1px 0 0 10px; }
+    margin: -1px 0 0 10px;
+    position: absolute;
+    right: 16px; }
     .box_filiais .seletor_filiais #escolha:hover {
       background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3293b9), color-stop(100%, #1c5092));
       background-image: -webkit-linear-gradient(#3293b9, #1c5092);
