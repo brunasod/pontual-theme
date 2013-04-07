@@ -502,7 +502,7 @@ body.orange, .orange .portlet {
   position: relative; }
 
 .inicial header#banner {
-  background: url(../images/pontual/sombra_banner.png) no-repeat 50% 431px;
+  background: url(../images/pontual/sombra_banner.png) no-repeat 50% 423px;
   height: 486px; }
 
 .inicial .home_banner .aui-carousel-menu-pause, .inicial .home_banner .aui-carousel-menu-prev, .inicial .home_banner .aui-carousel-menu-next {
@@ -723,7 +723,8 @@ h1.site-title {
   -o-border-radius: 0px;
   -ms-border-radius: 0px;
   -khtml-border-radius: 0px;
-  border-radius: 0px; }
+  border-radius: 0px;
+  text-decoration: underline; }
 
 #navigation li.hover .child-menu {
   background: #fff;
@@ -1052,7 +1053,7 @@ h1.site-title {
 
 #content {
   width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto 30px; }
 
 /* ---------- Funcionalidades ---------- */
 #funcionalidades {
@@ -1306,7 +1307,7 @@ h1 {
 .quadro_produto #mostra_produto {
   position: relative;
   height: auto;
-  padding: 10px;
+  padding: 10px 10x 0;
   clear: both;
   background: white; }
   .quadro_produto #mostra_produto h2 {
@@ -1345,7 +1346,7 @@ h1 {
 .quadro_produto #mostra_produto .quadro_azul {
   display: block;
   width: 260px;
-  background: #E9EDF0;
+  background: #f4f5f7;
   padding: 10px; }
 
 .azul {

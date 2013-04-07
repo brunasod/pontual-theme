@@ -229,6 +229,7 @@ h1.site-title{
 	color: #D1202E;
 	outline: 0;
 	@include border-radius(0px);
+	text-decoration: underline;
 }
 
 #navigation li.hover .child-menu {
@@ -606,7 +607,7 @@ h1.site-title{
 
 #content{
 	width: 960px;
-	margin: 0 auto;
+	margin: 0 auto 30px;
 }
 
 /* ---------- Funcionalidades ---------- */
@@ -880,7 +881,7 @@ padding: 0;
 .quadro_produto #mostra_produto{
 	position: relative;
 	height: auto;
-	padding: 10px;
+	padding: 10px 10x 0;
 	clear: both;
 	background: white;
 	h2 {
@@ -914,7 +915,7 @@ padding: 0;
 .quadro_produto #mostra_produto .quadro_azul {
 	display: block;
 	width: 260px;
-	background: #E9EDF0;
+	background: #f4f5f7;
 	padding: 10px;
 }
 
